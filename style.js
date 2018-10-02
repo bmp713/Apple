@@ -1,12 +1,15 @@
 
-// Add event listners for arrow buttons
+// Add event listners for page elements
 window.addEventListener('load', function(){
     document.querySelector('#arrow_down').addEventListener('click', nextPage);
     document.querySelector('#image').addEventListener('click', zoomImage);
+    document.querySelector('#prev').addEventListener('click', prevImage);
+    document.querySelector('#next').addEventListener('click', nextImage);
+    document.querySelector('.add').addEventListener('click', addToCart);
 });
 
 var currentPage = 0;
-var pages = ['#content_1','#content_2','#content_3','#content_4'];
+var pages = ['#content_1','#content_2','#content_3','#footer'];
 
 function nextPage(){
     if( currentPage < pages.length - 1 ){

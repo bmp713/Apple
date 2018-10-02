@@ -31,11 +31,21 @@ font-family: 'Notable', sans-serif;
 	background: rgba(50,50,75,0.7);
 	transition: background 0.5s, color 0.5s;
 }
+
 #nav li:hover{
 	color: white;
 	background: rgba(50,50,75,0.9);
 	transition: background 0.5s, color 0.5s;
 }
+#menu_sub, #cart_sub, #about_sub, #contact_sub{
+	display: block;
+	padding: 100px;
+	position: relative;
+	margin: auto;
+	height: 50vh;
+	width: 100%;
+}
+
 
 #main{
 	position: relative;
@@ -58,6 +68,7 @@ font-family: 'Notable', sans-serif;
 		background-size: 100%;		
 	}
 		#header_1{
+			padding: 25px;
 			position: fixed;
 			margin: auto; 
 			text-align: left;
@@ -65,11 +76,12 @@ font-family: 'Notable', sans-serif;
 			font: 36px 'Montserrat';
 		}
 		#header_2{
+			padding: 25px;
 			position: fixed;
 			margin: auto; 
 			text-align: right;
-			top: 70vh;
-			font: 24px 'Montserrat';
+			top: 90vh;
+			font: 18px 'Montserrat';
 		}
 		#buttons{
 			position: relative;
@@ -101,7 +113,7 @@ font-family: 'Notable', sans-serif;
 
 
 	#content_2{
-		background: url("assets/images/apple_6.jpg") no-repeat fixed;
+		background: url("assets/images/apple_keys_4.jpg") no-repeat fixed;
 		background-size: cover;
 	}
 
@@ -122,8 +134,7 @@ font-family: 'Notable', sans-serif;
 			position: relative;
 			display: block;
 			margin: auto;
-			width: 30%;
-			border: 1px solid white;
+			width: 15%;
 		}
 		.item p{
 			font: 50% sans-serif;
@@ -165,9 +176,13 @@ font-family: 'Notable', sans-serif;
 		margin: auto;
 		width: 100%;
 		height: 100vh;
-		background: url("assets/images/apple_keys_4.jpg") no-repeat fixed;
-
+		background: url("assets/images/apple_6.jpg") no-repeat fixed;
 		background-size: 100%;
+	}
+	#content_3 img{
+		position: relative;
+		top: 25%;
+		width: 40%;
 	}
 
 
@@ -327,5 +342,35 @@ font-family: 'Notable', sans-serif;
    filter: brightness(100%);
    height: 75%;
 }
+
+#footer{
+	position: relative;
+	margin: 300px auto 0 auto;
+	float: left;
+	width: 100%;
+	height: 33vh;
+	background: rgba(10,10,10,0.7);
+	transition: background 1s;
+}
+#footer:hover{
+	transition: background 1s;
+	background: rgba(10,10,10,0.8);
+}
+#footer p{
+	padding: 50px 250px;
+	position: relative;
+	margin: auto;
+	width: 33%;
+	float: right;
+	color: lightgray;
+	cursor: pointer;
+	font: 12px 'Narrow|Arvo', sans-serif;
+	transition: color 1s;
+}
+#footer p:hover{
+	transition: color 1s;
+	color: white;
+}
+
 
 

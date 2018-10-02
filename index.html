@@ -1,34 +1,64 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Layout</title>
+<title>Apple</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow|Arvo|Merriweather+Sans|Montserrat|Oswald" 
-      rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=
+      Anton|Archivo+Narrow|Arvo|Merriweather+Sans|Montserrat|Oswald" rel="stylesheet"> 
 <script src="style.js"></script>
 </head>
 <body>
 <div id="container">
 
     <ul id="nav">
-        <li>Home</li>
-        <li>Cart</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li id="menu">Menu</li>
+            <ul id="menu_sub">
+                <li>Apple</li>
+                <li>Gallery</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        <li id="cart">Cart</li>
+<!--            <ul id="cart_sub">
+                <li>Apple 1</li>
+                <li>Gallery 1</li>
+                <li>About Us 1</li>
+                <li>Contact 1</li>
+            </ul>
+        -->
+        <li id="about">About</li>
+        <!--
+            <ul id="about_sub">
+                <li>Apple 1</li>
+                <li>Gallery 1</li>
+                <li>About Us 1</li>
+                <li>Contact 1</li>
+            </ul>
+        -->
+        <li id="contact">Contact</li>
+        <!--
+            <ul id="contact_sub">
+                <li>Apple 1</li>
+                <li>Gallery 1</li>
+                <li>About Us 1</li>
+                <li>Contact 1</li>
+            </ul>
+        -->
     </ul>
 
     <div id="main">    
         <div id="content_1">
-            <h1 id="header_1">Rubberband Scrolling with vanilla Javascript</h1>
+            <h1 id="header_1">Rubberband scrolling and slideshow<br>
+                with vanilla Javascript</h1>
             <h3 id="header_2">Think different.</h3>
 
             <div id="buttons">
-                <a class="button">Mac</a>
-                <a class="button">iPad</a>
-                <a class="button">iPhone</a>
-                <a class="button">Watch</a>
+                <a href="http://brandonmpiper.com/Apple" class="button">Mac</a>
+                <a href="http://brandonmpiper.com/Apple" class="button">iPad</a>
+                <a href="http://brandonmpiper.com/Apple" class="button">iPhone</a>
+                <a href="http://brandonmpiper.com/Apple" class="button">Watch</a>
             </div>
         </div>
 
@@ -36,11 +66,11 @@
             <div id="slideshow">
                 <img id="image" src="assets/images/apple_7.jpg">
                 <div id="controls">
-                    <a id="prev" onclick="prevImage()">
+                    <a id="prev">
                         <img src="assets/images/Icon_left.png">
                     </a>
                     Click image to zoom
-                    <a id="next" onclick="nextImage()">
+                    <a id="next">
                         <img src="assets/images/Icon_right.png">
                     </a>
                 </div>
@@ -50,28 +80,72 @@
         </div>
 
         <div id="content_3">
+            <!--
             <ul class="products">
+                
                 <li class="item">
                     <img src="assets/images/apple_7.jpg">
                     <p>We’ll show you how to get the most out of your new iPhone,
                     online or in store.<br><br>$89.00</p>
-                    <a class="add" onclick="addToCart()">Add</a>
+                    <a class="add">Add</a>
                 </li>
                 <li class="item">
                     <img src="assets/images/iphone-ipad-apple (2).jpg">
                     <p>We’ll show you how to get the most out of your new iPhone,
                     online or in store.<br><br>$89.00</p>
-                    <a class="add" onclick="addToCart()">Add</a>
+                    <a class="add">Add</a>
                 </li>
                 <li class="item">
                     <img src="assets/images/apple_computer.jpg">
                     <p>We’ll show you how to get the most out of your new iPhone,
                     online or in store.<br><br>$89.00</p>
-                    <a class="add" onclick="addToCart()">Add</a>
+                    <a class="add">Add</a>
                 </li>
+                <li class="item">
+                    <img src="assets/images/apple_7.jpg">
+                    <p>We’ll show you how to get the most out of your new iPhone,
+                    online or in store.<br><br>$89.00</p>
+                    <a class="add">Add</a>
+                </li>
+            -->
             </ul>  
         </div>
 
+    </div>
+
+    <div id="footer">
+        <p>
+        iPhone<br><br>
+        Shop and Learn<br><br>
+        Mac<br>
+        iPad<br>
+        iPhone<br>
+        Watch<br>
+        Music<br>
+        iTunes<br>
+        iPod touch<br>
+        Accessories<br>
+        </p>
+        <p>  
+        Apple Store<br><br>
+        Find a Store<br>
+        Genius Bar<br>
+        Today at Apple<br>
+        Apple Camp<br>
+        Apple Store App<br>
+        </p>
+        <p>  
+        Apple Store<br><br>
+        Find a Store<br>
+        Genius Bar<br>
+        Today at Apple<br>
+        Apple Camp<br>
+        Field Trip<br>
+        Apple Store App<br>
+        Refurbished and Clearance<br>
+        Financing<br>
+        </p>
+   
     </div>
 
     <div id="arrow_up">
